@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 This is an AltSpaceVR MRE that generates a shuffled deck of 52 playing cards that also have rigid body physics, and are grabbable so users can build a house of cards. 
 =======
 This is an AltSpaceVR MRE that generates a shuffled deck of 52 playing cards that also have rigid body physics, and are grabbable so users can build a house of cards.
->>>>>>> 12368eb05e44320dbd31907128ddae69c8022fcb
 
 ## Setup
 
