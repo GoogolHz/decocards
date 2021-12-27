@@ -1,5 +1,5 @@
 {
-  "name": "marble-run",
+  "name": "deck-of-cards",
   "version": "0.1.0",
   "private": true,
   "description": "",
@@ -35,6 +35,7 @@
     "@typescript-eslint/parser": "^2.17.0",
     "concurrently": "^5.1.0",
     "eslint": "^6.8.0",
+    "mongodb": "^3.6.6",
     "nodemon": "^2.0.2",
     "typescript": "^3.7.5"
   },
