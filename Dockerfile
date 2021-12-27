@@ -2,8 +2,7 @@ FROM node:10.16-alpine
 WORKDIR /opt/mre
 
 ENV PORT=80
-#ENV BASE_URL=http://googolhz.xyz/
-ENV BASE_URL=http://decocards.openode.io/
+ENV BASE_URL=http://decocards.openode.dev/
 
 COPY package*.json ./
 RUN ["npm", "install", "--unsafe-perm"]
