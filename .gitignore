@@ -1,21 +1,11 @@
-<<<<<<< HEAD
-=======
 sdk-path-config.json
 
->>>>>>> master
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-lerna-debug.log*
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-=======
->>>>>>> master
 
 # Runtime data
 pids
@@ -28,19 +18,11 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-<<<<<<< HEAD
-*.lcov
-=======
->>>>>>> master
 
 # nyc test coverage
 .nyc_output
 
-<<<<<<< HEAD
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-=======
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
->>>>>>> master
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -59,27 +41,12 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
-<<<<<<< HEAD
-# TypeScript cache
-*.tsbuildinfo
-
-=======
->>>>>>> master
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
-<<<<<<< HEAD
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-
-=======
->>>>>>> master
 # Optional REPL history
 .node_repl_history
 
@@ -91,40 +58,6 @@ typings/
 
 # dotenv environment variables file
 .env
-<<<<<<< HEAD
-.env.test
-
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-
-# Next.js build output
-.next
-
-# Nuxt.js build / generate output
-.nuxt
-dist
-
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-=======
 
 # next.js build output
 .next
@@ -145,4 +78,3 @@ app.zip
 .DS_Store
 
 .openode
->>>>>>> master
