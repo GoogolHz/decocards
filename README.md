@@ -1,7 +1,5 @@
 This is an AltSpaceVR MRE that generates a shuffled deck of 52 playing cards that also have rigid body physics, and are grabbable so users can build a house of cards.
 
-Shows a text that animates when highlighting or clicking on a cube.
-
 ## Setup
 
 * Open a command prompt to this sample's folder and run `npm install`. Keep the command prompt open if you wish to follow the command-oriented instructions that follow.
