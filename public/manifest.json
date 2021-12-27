@@ -1,0 +1,7 @@
+{
+	"name": "Deck of Cards",
+	"author": "GoogolHz",
+	"license": "MIT",
+	"repositoryUrl": "https://github.com/GoogolHz/decocards",
+	"optionalPermissions": ["user-interaction"]
+}
