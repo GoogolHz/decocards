@@ -74,14 +74,14 @@ export default class DeckoCards {
 	public expectedResultDescription = "Different grabbable items.";
 	private state = 0;
 	private clickCount = 0;
-	private orbIDs = ['1712660454259557215', '1678828395690984070', '1713205174475948516'];
-	private orbNum = this.orbIDs.length;
-	private activeBallCount = 0;
+	// private orbIDs = ['1712660454259557215', '1678828395690984070', '1713205174475948516'];
+	// private orbNum = this.orbIDs.length;
+	// private activeBallCount = 0;
 	private maxCount = 8;
 	private resetCount = 0;
-	private allBalls: MRE.Actor[] = [];
-	private allBallColliders: MRE.Actor[] = [];
-	private filePath = "the.path.to .the.file";
+	// private allBalls: MRE.Actor[] = [];
+	// private allBallColliders: MRE.Actor[] = [];
+	// private filePath = "the.path.to .the.file";
 	private spawnLoc = [{x:25, z:25}, {x:10, z:60}, {x:50, z:90}, {x:60, z:40}];
 	// public _this = this;
 
@@ -219,7 +219,7 @@ export default class DeckoCards {
 
 		this.assets = new MRE.AssetContainer(this.context);
 
-		this.groundCollider =  MRE.Actor.CreatePrimitive(this.assets, {
+		this.groundCollider =  MRE.Actor.CreatePrimitive( this.assets, {
 			definition: { shape: MRE.PrimitiveShape.Box },
 			actor: {
 				name: 'ballTriggerPlane',
@@ -241,7 +241,7 @@ export default class DeckoCards {
 		});
 
 
-		this.subPlane = MRE.Actor.CreatePrimitive(this.assets, {
+		this.subPlane = MRE.Actor.CreatePrimitive( this.assets, {
 			definition: { shape: MRE.PrimitiveShape.Box },
 			actor: {
 				name: 'ballTriggerPlane',
